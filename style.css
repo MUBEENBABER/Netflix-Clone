@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   body{
+    background-color: black;
+   }
+   /* main border ha and add the background image  */
+   .main{ width: 99.5vw;
+    height: 80vh;
+    background-image: url("assets/images/coverback\ .jpg");
+    border: 2px solid black;
+    position: relative;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: max(1500px, 100vw);
+   
+    
+}
+/* This is black shadow box opacity level is 0.65 */
+.box{
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    top: 0%;
+    opacity: 0.65;
+}
+/* navibar ke width and hight ha ya */
+.navbar{
+    max-width: 70vw;
+    height: 12vh;
+    color: white;
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+   
+    
+    /* background-image: url("assets/images/logo.png"); */
+}
+/* .navbar button{
+    /* background-color: white; */
+    /* border: 2px solid rgb(241, 240, 240); */
+    /* border-radius: 5px; */
+    /* position: relative; */
+    /* z-index: 10; } */
+    
+/* this is logo code position and width and hight  */
+.navbar img{
+    width: 10.5vw;
+    height: 11vh;
+    position: relative;
+    z-index: 10;
+}
+
+/* This line code is Add all Title in title class for h1,h2,and h3 */
+ .title{
+    /* border: 2px solid yellow; */
+    background-size: max(900px, 50vw);
+    height: calc(100% - 80px);
+    position: relative;
+    /* margin: auto;
+    margin-top: 20vh; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    padding:  0 30px;
+   
+   
+ }
+   
+
+/* .title h1  {
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+   
+
+}
+.title h2  {
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   
+
+}
+.title h3  {
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+   
+
+} */
+
+/* This is input line code in this code input bar and 2 button is add englih and Sign in  */
+.input{
+   
+    background-size: max(800px, 50vw);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     /* border: 2px solid yellow; */
+    /* margin: auto; */
+   
+    /* flex-direction: row; */
+    /* gap: 10px;
+    padding: 9px; */
+    
+    /* align-items: center; */
+}
+/* .input button{
+    color: white;
+    background-color: red;
+    font-size: 1.5em;
+    background-size: max(100px, 15vw);
+    height: 9vh;
+    margin: 8px;
+    border-radius: 9px;
+} */
+
+/* This is Input bar is Email code line */
+.input input{
+    background-color: #0000001f;
+    /* border: 2px solid rgba(79, 77, 77, 0.637); */
+    
+    color: white;
+    font-size: 1em;
+    background-size: max(50px, 20vw);
+    margin: -4px;
+    padding: 10px 115px 9px 9px;
+    border: 2px solid rgba(54, 52, 52, 0.573);
+    /* height: auto; */
+    /* padding-right: 100px; */
+    /* text-align: center; */
+    border-radius: 9px;
+
+}
+/* This seperate line code */
+.seperate{
+    height: 7px;
+    background-color: rgb(87, 85, 85);
+    
+}
+.btn{
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+    z-index: 10;
+    padding: 4px 15px;
+    margin: 4px;
+    font-size: 1em;
+    border-radius: 7px;
+}
+/* This button is Get start button */
+.btn-red{
+    background-color: red;
+    color: white;
+    margin: 15px;
+    padding: 9px 12px ;
+    border: 2px solid rgba(255, 8, 8, 0.292);;
+}
+.btn-red:hover{
+    background-color: rgba(0, 0, 0, 0.64);
+   
+}
+/* This button is Sign In  button */
+.btn-red-sum{
+    background-color: red;
+    color: white;
+    border: 2px solid rgba(255, 0, 0, 0.199);
+
+}
+.btn-red-sum:hover{
+   background-color: rgba(0, 0, 0, 0.64);
+    
+
+}
+/* This button is english Language  button */
+.btn-en{
+    background-color: #0000007e;
+    color: white;
+    border: 2px solid #ffffff;
+}
+.btn-en:hover{
+    background-color: #663f3f7e;
+   
+}
+/* .container{
+    border: 2px solid yellow;
+    width: 99.5vw;
+    height: 60vh;
+    color: white;
+    
+}
+.data-box{
+    border: 2px solid red;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   flex-direction: column;
+}
+.data-box h2{
+    font-size: 3em;
+    margin-bottom: 9px;
+}
+.data-box h3{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 4px;
+} */
+/* .container img{
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+} */
+/* .tv-box{
+    border: 2px solid rgb(60, 0, 255);
+    
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+} */
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.img-box{
+    position: relative;
+}
+.img-box img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.img-box video{
+    width: 24vw;
+    position: absolute;
+    top: 4vw;
+    left: 55px;
+}
+section.first > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first h1{
+    font-size: 46px;
+}
+.first span{
+    font-size: 20px;
+}
+ /* .third-se{
+   margin-left:20px;
+   margin-left: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: self-start;
+   
+} */
+/* .third-se h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* margin-left: 40vw;}  */
+    .faq{
+        border: 2px solid yellow;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        width: 98vw;
+        height: 80vh;
+      
+
+    }
+
+
+ /* Subscription section styling */
+ .subscription {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 40px;
+  }
+
+  .subscription .plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+
+  .subscription .plan h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .subscription .plan p {
+    margin: 10px 0;
+  }
+    
+    
+   
+
